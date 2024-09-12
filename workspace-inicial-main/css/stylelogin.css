@@ -1,0 +1,405 @@
+/*ESTANDAR*/
+@media (min-width: 769px){
+    body {
+
+    background-color: white;
+    text-align: center;
+}
+
+#primerloginID {
+    margin-top: -50px;
+}
+
+#img-login{
+    width: 50%;
+}
+
+#log-inID h2 {
+    font-family: 'Inter';
+    font-weight: 400; 
+    font-size: 32px;
+    color:#727272;
+    line-height: 39px;
+    position: absolute;
+    width: 92px;
+    height: 70px;
+    left: calc(50% - 92px/2);
+   
+}
+
+#log-usuarioID{
+    box-sizing: border-box;
+    position: relative;
+    width: 324px;
+    height: 53px;
+    left: calc(50% - 324px/2);
+    margin-top: 5%;
+    background: #FFFFFF;
+    border: 3px solid #727272;
+    border-radius: 30px;
+
+}
+
+#icono-loginID, #icono-contraseniaID {
+    position: absolute;
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 34px; 
+    height: 34px; 
+}
+
+#inputUsuario, #inputContraseña {
+    width: 100%;
+    height: 100%;
+    border: none; 
+    padding-left: 20%; 
+    border-radius: 30px; 
+    box-sizing: border-box; 
+    text-align: left;
+    padding-top: 5px;
+}
+
+#inputUsuario::placeholder {
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B7B5B5;
+}
+
+#log-contraseniaID {
+    box-sizing: border-box;
+    position: relative;
+    width: 324px;
+    height: 53px;
+    left: calc(50% - 324px/2);
+    margin-top: 1%;
+    background: #FFFFFF;
+    border: 3px solid #727272;
+    border-radius: 30px;
+
+
+}
+
+#inputContraseña::placeholder {
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B7B5B5;
+}
+
+#boton-entrar {
+    width: 10%;
+    margin-top: 2%;
+    text-align: center;
+    left: calc(50% - 109px/2 + 0.5px);
+    background: #F09100;
+    border-radius: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+    color: #FFFFFF;
+    border:none;
+}
+
+ 
+.bx {
+    position: absolute;
+    right: 10px; /* Ajusta la posición del ícono */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+  
+footer {
+      position: fixed;
+      bottom: 0;
+      width: 110%;
+      background-color: #FFFFFF;
+      padding: 10px 0;
+}
+
+footer p {
+      margin-right: 30%;
+}
+
+}
+/*FIN ESTANDAR*/
+/*TABLET*/
+@media (max-width: 768px){
+    body {
+
+        background-color: white;
+        text-align: center;
+    }
+    
+    #primerloginID {
+        margin-top: -50px;
+    }
+    
+    #img-login{
+        width: 100%;
+    }
+    
+    #log-inID h2 {
+        font-family: 'Inter';
+        font-weight: 400; 
+        font-size: 32px;
+        color:#727272;
+        line-height: 39px;
+        position: absolute;
+        width: 100px;
+        height: 70px;
+        left: calc(50% - 92px/2);
+       
+    }
+    
+    #log-usuarioID{
+        box-sizing: border-box;
+        position: relative;
+        width: 400px;
+        height: 60px;
+        left: calc(50% - 324px/2);
+        margin-top: 10%;
+        margin-left: -40px;
+        background: #FFFFFF;
+        border: 3px solid #727272;
+        border-radius: 30px;
+    
+    }
+    
+    #icono-loginID, #icono-contraseniaID {
+        position: absolute;
+        left: 10px; 
+        top: 50%; 
+        transform: translateY(-50%);
+        width: 34px; 
+        height: 34px; 
+    }
+    
+    #inputUsuario, #inputContraseña {
+        width: 100%;
+        height: 100%;
+        border: none; 
+        padding-left: 20%; 
+        border-radius: 30px; 
+        box-sizing: border-box; 
+        text-align: left;
+        padding-top: 5px;
+    }
+    
+    #inputUsuario::placeholder {
+            
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #B7B5B5;
+    }
+    
+    #log-contraseniaID {
+        box-sizing: border-box;
+        position: relative;
+        width: 400px;
+        height: 60px;
+        left: calc(50% - 324px/2);
+        margin-top: 2%;
+        margin-left: -40px;
+        background: #FFFFFF;
+        border: 3px solid #727272;
+        border-radius: 30px;
+    
+    
+    }
+    
+    #inputContraseña::placeholder {
+            
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #B7B5B5;
+    }
+    
+    #boton-entrar {
+        width: 25%;
+        margin-top: 5%;
+        text-align: center;
+        left: calc(50% - 109px/2 + 0.5px);
+        background: #F09100;
+        border-radius: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150%;
+        color: #FFFFFF;
+        border:none;
+    }
+    
+     
+    .bx {
+        position: absolute;
+        right: 10px; /* Ajusta la posición del ícono */
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+      
+    footer {
+          position: fixed;
+          bottom: 0;
+          width: 150%;
+          background-color: #FFFFFF;
+          margin-left: -250px;
+    }
+
+    }
+/*FIN TABLET*/
+@media (max-width: 320px){
+    body {
+
+        background-color: white;
+        text-align: center;
+    }
+    
+    #primerloginID {
+        margin-top: -50px;
+    }
+    
+    #img-login{
+        width: 100%;
+    }
+    
+    #log-inID h2 {
+        font-family: 'Inter';
+        font-weight: 400; 
+        font-size: 200%;
+        color:#727272;
+        line-height: 39px;
+        position: absolute;
+        width: 100px;
+        height: 70px;
+        text-align: center;
+       
+    }
+    
+    #log-usuarioID{
+        box-sizing: border-box;
+        position: relative;
+        width: 250px;
+        height: 40px;
+        left: calc(50% - 324px/2);
+        margin-top: 20%;
+        margin-left: 40px;
+        background: #FFFFFF;
+        border: 3px solid #727272;
+        border-radius: 30px;
+    
+    }
+    
+    #icono-loginID, #icono-contraseniaID {
+        position: absolute;
+        left: 10px; 
+        top: 50%; 
+        transform: translateY(-50%);
+        width: 30px; 
+        height: 30px; 
+    }
+    
+    #inputUsuario, #inputContraseña {
+        width: 100%;
+        height: 100%;
+        border: none; 
+        padding-left: 20%; 
+        border-radius: 30px; 
+        box-sizing: border-box; 
+        text-align: left;
+        padding-top: 5px;
+    }
+    
+    #inputUsuario::placeholder {
+            
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #B7B5B5;
+    }
+
+    #icon{
+        width: 10%;
+    }
+    
+    #log-contraseniaID {
+        box-sizing: border-box;
+        position: relative;
+        width: 250px;
+        height: 40px;
+        left: calc(50% - 324px/2);
+        margin-top: 2%;
+        margin-left: 40px;
+        background: #FFFFFF;
+        border: 3px solid #727272;
+        border-radius: 30px;
+    
+    }
+    
+    #inputContraseña::placeholder {
+            
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #B7B5B5;
+    }
+    
+    #boton-entrar {
+        width: 50%;
+        margin-top: 10%;
+        text-align: center;
+        left: calc(50% - 109px/2 + 0.5px);
+        background: #F09100;
+        border-radius: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90%;
+        color: #FFFFFF;
+        border:none;
+    }
+    
+     
+    .bx {
+        position: absolute;
+        right: 10px; /* Ajusta la posición del ícono */
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+      
+    footer {
+          bottom: 0;
+          width: 100%;
+          background-color: #FFFFFF;
+          text-align: center;
+          margin-left: 0%;
+    }
+
+    }

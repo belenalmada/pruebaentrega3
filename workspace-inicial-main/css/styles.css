@@ -1,0 +1,616 @@
+/*ESTANDAR*/
+@media (min-width: 769px){
+  .jumbotron,
+  .card-body,
+  .container,
+  .site-header {
+    font-family: 'Verdana', serif !important;
+  }
+  
+  .jumbotron .display-4 {
+    font-weight: bold;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  .jumbotron {
+    height: 50vh;
+    padding: 5em inherit;
+    margin-bottom: 0;
+    background-color: #53C0FB;
+    background: url('../img/cover_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .jumbotron .lead {
+    font-size: 38px;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .site-header a {
+    color: white;
+    transition: ease-in-out color .15s;
+  }
+  
+  .site-header .dropdown-menu a {
+    color: black;
+  }
+  
+  .dropzone {
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .img-fit {
+    max-height: 100%;
+  }
+  
+  .alert {
+    position: fixed;
+    top: 80px;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .cursor-active {
+    cursor: pointer;
+  }
+  
+  .left {
+    float: left;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  #spinner-wrapper {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1021;
+    display: none;
+  }
+  
+  main {
+    min-height: calc(100vh - 210px);
+  }
+  
+  a.custom-card,
+  a.custom-card:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  
+  .product-container {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .product-text {
+    flex: 50%;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  
+  #product-imaElement-0, #product-imaElement-1, #product-imaElement-2, #product-imaElement-3, #product-imaElement-4 {
+   width: 90%;
+   text-align: left;
+   margin: 20px 0px 20px 0px;
+   border: 2px solid rgb(39, 25, 1);
+  }
+  
+  .product-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 1px solid rgb(41, 26, 1);
+  }
+  
+  #product-soldCount-0,#product-soldCount-1, #product-soldCount-2, #product-soldCount-3, #product-soldCount-4 {
+    margin-top: 20%;
+    color: rgb(148, 147, 147);
+  }
+  
+  #product-name-0, #product-name-1, #product-name-2, #product-name-3, #product-name-4 {
+    font-size: 40px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+  }
+  
+  #tituloProductos{
+    font-size: 50px;
+    margin: 40px 0px 20px 0px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    letter-spacing: 5px;
+  }
+
+ 
+
+  #chevrolet-onyx-joy {
+    position: absolute;         /* Para colocar el elemento en coordenadas exactas */
+    width: 695px;               /* Ancho específico como en Figma */
+    height: 64px;               /* Altura específica como en Figma */
+    left: 530px;                /* Posiciona el contenedor desde el borde izquierdo */
+    top: 125px;                 /* Posiciona el contenedor desde la parte superior */
+    display: flex;              /* Usamos flex para centrar el texto dentro del div */
+    justify-content: center;    /* Centra horizontalmente */
+    align-items: center;        /* Centra verticalmente */
+    font-family: 'Lucida Console', monospace; /* Fuente específica */
+    font-style: normal;         /* Sin cursiva */
+    font-weight: 400;           /* Peso de fuente como en Figma */
+    font-size: 64px;            /* Tamaño de fuente como en Figma */
+    line-height: 64px;          /* Alineado con la altura de la caja */
+    color: #000000;             /* Color del texto */
+    z-index: 1;                 /* Asegura que esté encima de otros elementos si es necesario */
+  }
+
+
+  #cuadro-gris {  /* Product-info INICIO */
+    background: url('/img/cuadrogris.png') no-repeat center center; 
+    background-size: cover; width: 267px; height: 302px;
+    margin-top: 10%;
+    margin-left: 9%; /* Empuja el cuadro a la derecha */
+    margin-right: 0; /* Asegúrate de que no tenga margen derecho */
+  }  
+  
+  #autos-categoria {
+    /* Autos */
+  
+    position: absolute;
+    width: 150px;
+    height: 27px;
+    right: 50px; /* Mueve el elemento 10px desde el borde derecho del contenedor */
+    top: 90px;
+    display: flex;              
+    justify-content: flex-end; /* Alinea el contenido al final del contenedor flex */
+    align-items: center; /* Alinea verticalmente */
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.55);
+  }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ajusta según sea necesario */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  
+  .carousel-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .pagination-item {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .pagination-item.active {
+    background-color: black;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+  }
+  
+
+  
+}
+/*FIN ESTANDAR*/
+/*TABLETS*/
+@media (max-width: 768px) {
+  .jumbotron,
+  .card-body,
+  .container,
+  .site-header {
+    font-family: 'Verdana', serif !important;
+  }
+  
+  .jumbotron .display-4 {
+    font-weight: bold;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  .jumbotron {
+    height: 50vh;
+    padding: 5em inherit;
+    margin-bottom: 0;
+    background-color: #53C0FB;
+    background: url('../img/cover_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .jumbotron .lead {
+    font-size: 38px;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .site-header a {
+    color: white;
+    transition: ease-in-out color .15s;
+  }
+  
+  .site-header .dropdown-menu a {
+    color: black;
+  }
+  
+  .dropzone {
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .img-fit {
+    max-height: 100%;
+  }
+  
+  .alert {
+    position: fixed;
+    top: 80px;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .cursor-active {
+    cursor: pointer;
+  }
+  
+  .left {
+    float: left;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  #spinner-wrapper {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1021;
+    display: none;
+  }
+  
+  main {
+    min-height: calc(100vh - 210px);
+    position: relative; /*agregue BELEN*/
+  }
+  
+  a.custom-card,
+  a.custom-card:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  
+  .product-container {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .product-text {
+    flex: 50%;
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 80%;
+  }
+  
+  #product-imaElement-0, #product-imaElement-1, #product-imaElement-2, #product-imaElement-3, #product-imaElement-4 {
+   width:85%;
+   text-align: left;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   border: 2px solid rgb(39, 25, 1);
+  }
+  
+  .product-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 1px solid rgb(41, 26, 1);
+  }
+  
+  #product-soldCount-0,#product-soldCount-1, #product-soldCount-2, #product-soldCount-3, #product-soldCount-4 {
+    margin-top: 20%;
+    color: rgb(148, 147, 147);
+  }
+  
+  #product-name-0, #product-name-1, #product-name-2, #product-name-3, #product-name-4 {
+    font-size: 40px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+  }
+  
+  #tituloProductos{
+    font-size: 40px;
+    margin: 40px 0px 20px 0px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    letter-spacing: 5px;
+  }
+}
+/*FIN TABLETS*/
+
+/*CEL*/
+@media (max-width: 320px) {
+  .product-container {
+    display: block;
+    margin-bottom: 5%;
+  }
+  
+  .product-text {
+    flex: 50%;
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 5%;
+    font-size: 60%;
+  }
+  
+  #product-imaElement-0, #product-imaElement-1, #product-imaElement-2, #product-imaElement-3, #product-imaElement-4 {
+   width:95%;
+   text-align: left;
+   margin-top: 5%;
+   margin-bottom: 10%;
+   border: 2px solid rgb(39, 25, 1);
+  }
+  
+  .product-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 1px solid rgb(41, 26, 1);
+  }
+  
+  #product-soldCount-0,#product-soldCount-1, #product-soldCount-2, #product-soldCount-3, #product-soldCount-4 {
+    margin-top: 20%;
+    color: rgb(148, 147, 147);
+  }
+  
+  #product-name-0, #product-name-1, #product-name-2, #product-name-3, #product-name-4 {
+    font-size: 300%;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+  }
+  
+  #tituloProductos{
+    font-size: 40px;
+    margin: 40px 0px 20px 0px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    letter-spacing: 5px;
+  }
+
+  footer{
+    font-size: 60%;
+  }
+}
